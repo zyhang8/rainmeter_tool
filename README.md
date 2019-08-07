@@ -50,6 +50,9 @@ Command1=!WriteKeyValue Variables MemoX "$UserInput$" DefaultValue=#MemoX#
 Command2=!Refresh
 ```
 
+第一部分Y的值比前一条备忘录增加25
+第二部分Y的值比第一部分增加5
+
 3. 打开inc文件,添加
 
 ```lua
@@ -67,6 +70,8 @@ DefaultValue=#MemoX#
 
 5. 测试过程中发现空格会使该备忘录瘫痪自行配置文件去掉空格即可
 
-## 最后
+## 效果展示
 
-上述两个文件仅为配置文件部分,主模块和安装包需要滴滴我
+![e5fwRJ.png](https://s2.ax1x.com/2019/08/07/e5fwRJ.png)
+
+>上述两个文件仅为配置文件部分,主模块和安装包需要滴滴我
